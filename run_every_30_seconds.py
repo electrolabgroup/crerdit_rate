@@ -6,7 +6,7 @@ script_path = r"C:\Users\Sayadf\Desktop\Python_EE\30-7-2024\Credit_Rate_Calulato
 while True:
     process = subprocess.Popen(["python", script_path])
 
-    time.sleep(30)
+    time.sleep(3600)
 
     process.terminate()
     # process.kill
